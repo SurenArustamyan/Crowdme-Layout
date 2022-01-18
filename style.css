@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+.logo{
+    width: 26%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo1 img{
+    width: 37px;
+    height: 39px;
+    cursor: pointer;
+}
+.logo2{
+    width: 45%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo2 p{
+    font-size: 31px;
+    font-family: "Nunito";
+    color: rgb(109, 110, 112);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu{
+    width: 55%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    width: 550px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu li{
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgba(102, 102, 102, 0.671);
+    line-height: 5.833;
+    text-align: center;
+    cursor: pointer;
+}
+.menu li:hover{
+    color: #99C50A;
+}
+.login{
+    width: 16%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.login button{
+    width: 100px;
+    height: 38px;
+    border: none;
+    background-color: #BCDA5C;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.812);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login button:hover{
+    border: 2px solid #BCDA5C;
+    color: #BCDA5C;
+    background-color: inherit;
+}
+.sc1{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.text1 h4{
+    font-size: 49.2px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.565;
+    text-align: center;
+}
+.text1 p{
+    font-size: 40px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.565;
+    text-align: center;
+}
+.text1 button{
+    width: 255px;
+    height: 72px;
+    border: none;
+    border-radius: 10px;
+    background-color: #99C50A;
+    font-size: 19px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.text1 button:hover{
+    border: 2px solid #99C50A;
+    color: #99C50A;
+    background-color: white;
+}
+.icon1{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box3{
+    width: 45%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box2 p{
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+}
+.box3 p{
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+}
+.box2 p:hover{
+    color: #99C50A;
+}
+.box3 p:hover{
+    color: #99C50A;
+}
+.sc2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.photo1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.text2{
+    width: 100%;
+    height: 400px;
+}
+.text2 h4{
+        font-size: 31px;
+        font-family: "Open Sans";
+        color: rgb(81, 81, 81);
+        text-transform: uppercase;
+        line-height: 1.603;
+        text-align: center;
+}
+.text2 p{
+        font-size: 19px;
+        font-family: "Open Sans";
+        color: rgba(81, 81, 81, 0.71);
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 40px;
+}
+.sc3{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box4{
+    width: 70%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbox1{
+    width:320px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.box5{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5F5F5F;
+}
+.number p{
+        font-size: 25px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+}
+.box6{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 p{
+    font-size: 33.2px;
+    font-family: "Open Sans";
+    color: rgb(101, 101, 101);
+    line-height: 1.2;
+    text-align: center;
+}
+.checkbox1:hover{
+    border-bottom: 1px solid #99C50A;
+    cursor: pointer;
+}
+.number:hover{
+    background-color: #99C50A;
+}
+.box7{
+    width: 70%;
+    height: 320px;
+    display: flex;
+}
+.photos2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text3{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.text3 h5{
+        font-size: 25px;
+        font-family: "Open Sans";
+        color: rgb(173, 209, 54);
+        line-height: 1.2;
+}
+.text3 p{
+        font-size: 17px;
+        font-family: "Open Sans";
+        color: rgba(96, 96, 96, 0.671);
+        line-height: 1.2;
+        margin-top: 40px;
+}
+.box8{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.checkbox2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: #E2F8FF;
+}
+.box9{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 70%;
+    height: 100%;
+}
+.checkbox3{
+    width: 50%;
+    height: 100%;
+    background-color: #F5F9EB;
+    display: flex;
+}
+.text4{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+.text4 p{
+        font-size: 23px;
+        font-family: "Montserrat";
+        color: rgb(81, 81, 81);
+        line-height: 1.2;
+}
+.text5{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items:center;
+}
+.text5 p{
+        font-size: 17px;
+        font-family: "Open Sans";
+        color: rgb(81, 81, 81);
+        line-height: 1.7;
+        text-align: left;
+}
+.but{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.but button{
+    width: 190px;
+    height: 50px;
+    background-color: #26A6D1;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    cursor: pointer;
+}
+.but button:hover{
+    border: 2px solid #26A6D1;
+    color: #26A6D1;
+    background-color: white;
+}
+.but1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.but1 button{
+    width: 190px;
+    height: 50px;
+    background-color: #ADD136;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    cursor: pointer;
+}
+.but1 button:hover{
+    border: 2px solid #ADD136;
+    color: #ADD136;
+    background-color: white;
+}
+.sc4{
+    width: 100%;
+    height: 810px;
+}
+.box11{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box12{
+    width: 980px;
+    height: 200px;
+    display: flex;
+}
+.box13{
+    width: 95%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box13 h4{
+        font-size: 29px;
+        font-family: "Open Sans";
+        color: rgb(81, 81, 81);
+        line-height: 1.2;
+}
+.box13 p{
+        font-size: 17px;
+        font-family: "Open Sans";
+        color: rgb(143, 143, 143);
+        line-height: 1.5;
+        margin-top: 20px;
+}
+.box14{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.box14 button{
+    width: 185px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(81, 81, 81, 0.71);
+    background-color: white;
+    font-size: 17px;
+    font-family: "Open Sans";
+    color: rgba(81, 81, 81, 0.71);
+    line-height: 1.2;
+    cursor: pointer;
+}
+.box14 button:hover{
+    background-color: rgba(81, 81, 81, 0.71);
+    color: white;
+    border: none;
+}
+.bigbox1{
+    width: 100%;
+    height: 515px;
+    display: flex;
+    justify-content: center;
+}
+.bigbox2{
+    width: 980px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.box15{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+.photo2{
+    width: 100%;
+    height: 40%;
+    background-image: url(./img/new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.but2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    opacity: 0;
+}
+.but3{
+    width: 170px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but3 button{
+    width: 140px;
+    height: 36px;
+    background-color: #26A6D1;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+}
+.but2:hover{
+    opacity: 1;
+}
+.box16{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+.box17{
+    width: 85%;
+    height: 80%;
+}
+.box17 h4{
+        font-size: 17px;
+        font-family: "Open Sans";
+        color: rgb(72, 72, 72);
+        font-weight: bold;
+        line-height: 1.2;
+}
+.lorem{
+        font-size: 13px;
+        font-family: "Open Sans";
+        color: rgba(72, 72, 72, 0.71);
+        line-height: 1.7;
+        margin-top: 10px;
+}
+.line1{
+    width: 100%;
+    height: 16px;
+    border-radius:50px;
+    background-color: #E3E3E3;
+    margin-top: 15px;
+}
+.line2{
+    width: 10%;
+    height: 100%;
+    background-color: #ADD136;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px ;
+}
+.text6{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text6 p{
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(141, 141, 141);
+    line-height: 1.2;
+}
+.line3{
+    width: 100%;
+    height: 1px;
+    background-color: #D6D6D6;
+    margin-top: 5px;
+}
+.see{
+    width: 100%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.see p{
+    color: #898989;
+    font-size: 15px;
+    font-family: "Open Sans";
+}
+.see i{
+    color: #C0DB65;
+    cursor: pointer;
+}
+.photo3{
+    width: 100%;
+    height: 40%;
+    background-image: url(./img/new1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.line4{
+    width: 60%;
+    height: 100%;
+    background-color: #ADD136;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px ;
+}
+.sc5{
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text7{
+    width: 100%;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.text7 h4{
+        font-size: 39.2px;
+        font-family: "Open Sans";
+        color: rgb(158, 192, 45);
+        line-height: 1.2;
+}
+.text7 p{
+        font-size: 19px;
+        font-family: "Open Sans";
+        color: rgb(148, 148, 148);
+        line-height: 1.8;
+        text-align: center;
+        margin-top: 35px;
+}
+.text8{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.text9{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.text10{
+    width: 400px;
+    height: 260px;
+    position: absolute;
+    z-index: 5;
+    bottom: 30px;
+}
+.sky{
+    position: absolute;
+    z-index: 6;
+    bottom: 64px;
+}
+.text10 h4{
+        font-size: 21px;
+        font-family: "Open Sans";
+        color: rgb(158, 192, 45);
+        line-height: 1.2;
+        text-align: center;
+        position: absolute;
+        z-index: 7;
+        bottom: 185px;
+        left: 125px;
+}
+.lorem2{
+    position: absolute;
+    z-index: 7;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(132, 132, 132);
+    line-height: 1.6;
+    text-align: center;
+    bottom: 110px;
+    left: 35px;
+}
+.beck{
+    position: absolute;
+    z-index: 7;
+    top:200px;
+    left:50px;
+}
+.david{
+    position: absolute;
+    z-index: 7;
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(73, 73, 73);
+    line-height: 1.2;
+    top: 220px;
+    left: 125px;
+    font-weight: bold;
+}
+.sc6{
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.sc6 img{
+    width: 75%;
+}
+.line5{
+    width: 100%;
+    height: 2px;
+    background-color: #EDEDED;
+}
+footer{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+        font-size: 13px;
+        font-family: "Open Sans";
+        color: rgb(132, 132, 132);
+        line-height: 1.2;
+        text-align: center;
+}
